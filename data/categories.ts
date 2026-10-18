@@ -1,0 +1,81 @@
+import { Category } from "@/types/product";
+
+export const CATEGORIES: Category[] = [
+  {
+    slug: "food-groceries",
+    label: "Food & Groceries",
+    icon: "🍚",
+    image: "food-groceries.jpg",
+    description: "Rice, beans, garri, flour, and pantry staples.",
+  },
+  {
+    slug: "fruits-veggies",
+    label: "Fruits & Veggies",
+    icon: "🥦",
+    image: "fruits-veggies.jpg",
+    description: "Fresh fruits and vegetables, picked daily.",
+  },
+  {
+    slug: "frozen-foods",
+    label: "Frozen Foods",
+    icon: "🥩",
+    image: "frozen-foods.jpg",
+    description: "Chicken, turkey, fish, beef, and more.",
+  },
+  {
+    slug: "pantry",
+    label: "Pantry",
+    icon: "🥫",
+    image: "pantry.jpg",
+    description: "Tomato paste, seasonings, spices, and cooking oil.",
+  },
+  {
+    slug: "pasta-noodles",
+    label: "Pasta & Noodles",
+    icon: "🍝",
+    image: "pasta-noodles.jpg",
+    description: "Indomie, spaghetti, macaroni, and more.",
+  },
+  {
+    slug: "drinks",
+    label: "Drinks",
+    icon: "🥤",
+    image: "drinks.jpg",
+    description: "Water, soft drinks, juice, malt, and energy drinks.",
+  },
+  {
+    slug: "snacks-biscuits",
+    label: "Snacks & Biscuits",
+    icon: "🍪",
+    image: "snacks-biscuits.jpg",
+    description: "Biscuits, cookies, wafers, and chin chin.",
+  },
+  {
+    slug: "household",
+    label: "Household Essentials",
+    icon: "🧴",
+    image: "household.jpg",
+    description: "Soap, detergent, tissue, and cleaning supplies.",
+  },
+  {
+    slug: "baby-family",
+    label: "Baby & Family",
+    icon: "🍼",
+    image: "baby-family.jpg",
+    description: "Diapers, baby food, wipes, and formula milk.",
+  },
+  {
+    slug: "beauty",
+    label: "Beauty & Personal Care",
+    icon: "💄",
+    image: "beauty.jpg",
+    description: "Toothpaste, body cream, shampoo, and skincare.",
+  },
+  {
+    slug: "kitchen-utensils",
+    label: "Kitchen Utensils",
+    icon: "🍳",
+    image: "kitchen-utensils.jpg",
+    description: "Cookware, dinner sets, and kitchen equipment.",
+  },
+];
